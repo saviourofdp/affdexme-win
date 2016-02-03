@@ -52,4 +52,6 @@ It runs on Windows 7.0, 8.0, 8.1 and 10
 
 **Note** It is important not to mix Release and Debug versions of the DLLs. If you run into issues when switching between the two different build types, check to make sure that your system path points to the matching build type.
 
+Emoji Icons provided free by [Emoji One](http://emojione.com/)
+
 Copyright (c) 2016 Affectiva. All rights reserved.
