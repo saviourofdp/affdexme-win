@@ -1,20 +1,15 @@
 # AffdexMe
 
-**Affdex SDK** is the culmination of years of scientific research into emotion detection, validated across thousands of tests worldwide on PC platforms, and now made available as a software development kit for Windows. Affdex SDK turns your ordinary app into an extraordinary app by emotion-enabling it to respond in real-time to user emotions.
+**AffdexMe** is a windows application that demonstrates the use of the Affdex SDK for Windows. It uses the camera on your Windows PC to view, process and analyze live video of your face. Start the app and you will see your own face on the screen, and metrics describing your facial expression of emotion.
 
-**AffdexMe** is a windows application that demonstrates the use of the Affdex SDK for Windows. It uses the camera on your Windows PC to view, process and analyze live video of your face. Start the app and you will see your own face on the screen, and metrics describing your expressions.
+[![](http://developer.affectiva.com/images/affdexme_win_emoj_3.0_fb.png)](https://www.facebook.com/ahamino/videos/857058591896/?l=7851546746791640786)
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-video" data-allowfullscreen="1" data-href="/ahamino/videos/vb.134501200/857058591896/?type=3">
-   <div class="fb-xfbml-parse-ignore">
-      <blockquote cite="https://www.facebook.com/ahamino/videos/857058591896/">
-         <a href="https://www.facebook.com/ahamino/videos/857058591896/"></a>
-         <p>Coz its too much work to use an #emoji keyboard #affectiva #sneak_peak #AffdexSDK</p>
-         Posted by <a href="#" role="button">Abdelrahman Mahmoud</a> on Wednesday, January 6, 2016
-      </blockquote>
-   </div>
-</div>
+
+[![Build status](https://ci.appveyor.com/api/projects/status/vidys6dkff0c37dl?svg=true)]
+(https://ci.appveyor.com/project/ahamino/affdexme-win)
+
+#### Download: [the built version](http://affdex-sdk-dist.s3-website-us-east-1.amazonaws.com/windows/download_affdexme.html)
+
 
 #### This app includes the following command buttons:
 
@@ -28,9 +23,9 @@
 *   Stop - Stops the camera processing
 *   Exit - exits the application
 
-This application runs on Windows 7.0, 8.0 and 8.1
+It runs on Windows 7.0, 8.0, 8.1 and 10
 
-#### To use this project, you will need:
+#### To build this project from source, you will need:
 
 *   Visual Studio 2013
 
