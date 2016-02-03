@@ -39,7 +39,7 @@
   <ItemGroup>
     <Reference Include="Affdex, Version=3.0.0.961, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Program Files (x86)\Affectiva\Affdex SDK\bin\release\Affdex.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Affectiva\Affdex SDK\bin\release\Affdex.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
@@ -194,7 +194,10 @@
     <Resource Include="Resources\valence.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="affdex-native.dll" />
+    <Content Include="C:\Program Files %28x86%29\Affectiva\Affdex SDK\bin\release\affdex-native.dll">
+      <Link>affdex-native.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
